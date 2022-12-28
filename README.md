@@ -20,15 +20,14 @@ use the slicing method to circulate the values
 End the program
 ## Program:
 ```python
-#Program to swap two values.
+#Program to circulate N values.
 #Developed by: bharadwaj
 #RegisterNumber:22003979
-input1=int(input())
-input2=int(input())
-temp = input1
-input1=input2
-input2=temp
-print("Swapped values are:",input1,input2)
+def circulate():
+    circul = l[n:]+l[:n]
+    print('After circulating the values are:',circul)
+l = eval(input())
+n = int(input())
 ```
 ## Output:
 ![MODEL](/Screenshot%20(35).png)
